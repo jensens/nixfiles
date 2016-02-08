@@ -7,6 +7,6 @@
       ./printing.nix
       ./x11_wm_de.nix
       #./communication.nix
-      # ./browsing.nix
+      ./browsing.nix
     ];
 }
