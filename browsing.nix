@@ -1,6 +1,7 @@
 # Firefox
 # Chrome
 # Chromium
+{ config, pkgs, ... }:
 {
     # Firefox
     environment.systemPackages = [

@@ -1,3 +1,4 @@
+{ config, pkgs, ... }:
 {
     # thunderbird
     environment.systemPackages = [

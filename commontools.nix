@@ -1,3 +1,4 @@
+{ config, pkgs, ... }:
 {
     # some terminal emulator: probably one or both out of:
     # - gnome-terminal
