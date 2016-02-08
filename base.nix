@@ -23,6 +23,10 @@
     uid = 1000;
   };
 
+  # auto upgrade
+  system.autoUpgrade.channel = https://nixos.org/channels/nixos-15.09;
+  system.autoUpgrade.enable = true;
+
   # The NixOS release to be compatible with for stateful data such as databases.
   system.stateVersion = "15.09";
 }

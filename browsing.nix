@@ -6,7 +6,7 @@
 
 
     environment.systemPackages = with pkgs; [
-        pkgs.firefox
-        pkgs.chromium
+        nixos.firefox
+        nixos.chromium
     ];
 }
