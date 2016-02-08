@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 {
-    # thunderbird
+    # firefox
     environment.systemPackages = [
         (pkgs.firefox {
             enableOfficialBranding = true;
