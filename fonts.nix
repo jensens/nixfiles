@@ -12,4 +12,4 @@
        pkgs.ttf_bitstream_vera_for_powerline
     ];
   };
-};
+}
