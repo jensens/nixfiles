@@ -5,7 +5,7 @@
     config.firefox.enableGoogleTalkPlugin = true;
 
 
-    environment.systemPackages = [
+    environment.systemPackages = with pkgs; [
         pkgs.firefox
         pkgs.chromium
     ];
