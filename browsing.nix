@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
     # firefox
-    nixpkgs.config.firefox.enableOfficialBranding = true;
-    nixpkgs.config.firefox.enableGoogleTalkPlugin = true;
+    config.firefox.enableOfficialBranding = true;
+    config.firefox.enableGoogleTalkPlugin = true;
 
 
     environment.systemPackages = [
