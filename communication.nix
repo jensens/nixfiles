@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
     # thunderbird
-    environment.systemPackages = [
+    environment.systemPackages = with pkgs; [
         (pkgs.thunderbird {
             enableOfficialBranding = true;
         })
