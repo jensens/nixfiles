@@ -1,15 +1,9 @@
-# Firefox
-# Chrome
-# Chromium
 { config, pkgs, ... }:
 {
-    # Firefox
+    # thunderbird
     environment.systemPackages = [
         (pkgs.firefox {
             enableOfficialBranding = true;
         })
     ];
 }
-
-
-
