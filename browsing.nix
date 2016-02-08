@@ -1,9 +1,12 @@
 { config, pkgs, ... }:
 {
     # firefox
+    nixpkgs.config.firefox.enableOfficialBranding = true;
+    nixpkgs.config.firefox.enableGoogleTalkPlugin = true;
+
+
     environment.systemPackages = [
-        (pkgs.firefox {
-            enableOfficialBranding = true;
-        })
+        pkgs.firefox
+        pkgs.chromium
     ];
 }
