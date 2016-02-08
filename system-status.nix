@@ -1,0 +1,3 @@
+# indicator-multiload
+# munin (local)
+#
