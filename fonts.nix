@@ -8,7 +8,6 @@
        pkgs.corefonts
        pkgs.freefont_ttf
        pkgs.dejavu_fonts
-       pkgs.ttf_bitstream_vera
     ];
   };
 }
