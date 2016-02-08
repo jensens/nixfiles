@@ -4,6 +4,6 @@
     nixpkgs.config.thunderbird.enableOfficialBranding = true;
 
     environment.systemPackages = with pkgs; [
-        nixos.thunderbird
+        thunderbird
     ];
 }
