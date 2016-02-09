@@ -10,14 +10,17 @@
 
   # Window Manager
   services.xserver.windowManager.awesome.enable = true;
-  services.xserver.windowManager.herbstluftwm.enable = true;
+  services.xserver.windowManager.windowmaker.enable = true;
   services.xserver.windowManager.i3.enable = true;
   services.xserver.windowManager.default = "i3";
 
   # Desktopmanager
   services.xserver.desktopManager.gnome3.enable = true;
+  services.xserver.desktopManager.xfce4.enable = true;
 
-  #environment.systemPackages = with pkgs; [
-  #      gnome3.gnome_shell
-  #  ];
+  environment.systemPackages = with pkgs; [
+        dmenu
+        i3status
+        i3lock
+    ];
 }
