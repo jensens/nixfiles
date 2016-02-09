@@ -13,7 +13,7 @@
   services.xserver.windowManager.default = "i3";
 
   # Desktopmanager
-  services.xserver.desktopManager.default = "gnome3";
+  services.xserver.desktopManager.gnome3.enable = true;
 
   #environment.systemPackages = with pkgs; [
   #      gnome3.gnome_shell
