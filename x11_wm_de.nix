@@ -8,9 +8,6 @@
   services.xserver.displayManager.lightdm.enable = true;
 
   # Window Manager
-  services.xserver.windowManager.i3.enable = true;
-  services.xserver.windowManager.default = "i3";
-
-  # Desktop Manager
-  services.xserver.desktopManager.xfce.enable = true;
+  services.xserver.windowManager.herbstluft.enable = true;
+  services.xserver.windowManager.default = "herbstluft";
 }
