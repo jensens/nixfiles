@@ -1,3 +1,4 @@
+{ config, pkgs, ... }:
 {
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -8,6 +9,11 @@
   services.xserver.displayManager.lightdm.enable = true;
 
   # Window Manager
-  services.xserver.windowManager.herbstluftwm.enable = true;
-  services.xserver.windowManager.default = "herbstluftwm";
+  services.xserver.windowManager.i3.enable = true;
+  services.xserver.windowManager.default = "i3";
+  services.xserver.windowManager.default = "i3";
+
+  environment.systemPackages = with pkgs; [
+    gnome-shell
+  ];
 }
