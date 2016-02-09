@@ -9,6 +9,8 @@
   services.xserver.displayManager.lightdm.enable = true;
 
   # Window Manager
+  services.xserver.windowManager.awesome.enable = true;
+  services.xserver.windowManager.herbstluftwm.enable = true;
   services.xserver.windowManager.i3.enable = true;
   services.xserver.windowManager.default = "i3";
 
