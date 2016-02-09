@@ -2,7 +2,7 @@
   imports =
     [
       # custom packages
-      ./pkgs/j4-dmenu-desktop
+      ./pkgs/j4-dmenu-desktop/default.nix
       # Include the features
       ./base.nix
       ./commontools.nix
