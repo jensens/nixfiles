@@ -16,7 +16,7 @@
 
   # Desktopmanager
   services.xserver.desktopManager.gnome3.enable = true;
-  services.xserver.desktopManager.xfce4.enable = true;
+  services.xserver.desktopManager.xfce.enable = true;
 
   environment.systemPackages = with pkgs; [
         dmenu
