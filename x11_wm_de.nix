@@ -8,6 +8,6 @@
   services.xserver.displayManager.lightdm.enable = true;
 
   # Window Manager
-  services.xserver.windowManager.herbstluft.enable = true;
+  services.xserver.windowManager.herbstluftwm.enable = true;
   services.xserver.windowManager.default = "herbstluft";
 }
