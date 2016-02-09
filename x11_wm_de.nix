@@ -4,9 +4,13 @@
   services.xserver.layout = "de";
   services.xserver.xkbOptions = "eurosign:e";
 
-  # Enable the KDE Desktop Environment.
+  # DisplayManager (baically login screen)
   services.xserver.displayManager.lightdm.enable = true;
+
+  # Window Manager
   services.xserver.windowManager.i3.enable = true;
   services.xserver.windowManager.default = "i3";
-  services.xserver.desktopManager.kde5.enable = true;
+
+  # Desktop Manager
+  services.xserver.desktopManager.xfce.enable = true;
 }
