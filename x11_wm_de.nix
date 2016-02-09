@@ -21,5 +21,6 @@
         dmenu
         i3status
         i3lock
+        j4-dmenu-desktop
     ];
 }

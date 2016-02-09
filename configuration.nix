@@ -1,6 +1,9 @@
 {
   imports =
-    [ # Include the features
+    [
+      # custom packages
+      ./pkgs/j4-dmenu-desktop
+      # Include the features
       ./base.nix
       ./commontools.nix
       ./fonts.nix
