@@ -9,5 +9,5 @@
 
   # Window Manager
   services.xserver.windowManager.herbstluftwm.enable = true;
-  services.xserver.windowManager.default = "herbstluft";
+  services.xserver.windowManager.default = "herbstluftwm";
 }
