@@ -13,6 +13,6 @@
   services.xserver.windowManager.default = "i3";
 
     environment.systemPackages = with pkgs; [
-        gnome-shell
+        gnome3.gnome_shell
     ];
 }
