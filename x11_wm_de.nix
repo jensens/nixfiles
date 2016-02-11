@@ -6,7 +6,7 @@
   services.xserver.xkbOptions = "eurosign:e";
 
   # DisplayManager (baically login screen)
-  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
 
   # Window Manager
   services.xserver.windowManager.i3.enable = true;
