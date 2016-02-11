@@ -23,7 +23,6 @@
         i3lock
         dzen2
         bar
-        powerline-fonts
-        python34Packages.powerline
+        gnome-panel
     ];
 }
