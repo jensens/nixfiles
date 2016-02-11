@@ -23,6 +23,6 @@
         i3lock
         dzen2
         bar
-        gnome-panel
+        gnome.gnomepanel
     ];
 }
