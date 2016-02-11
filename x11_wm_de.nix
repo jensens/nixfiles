@@ -13,8 +13,6 @@
   services.xserver.windowManager.default = "i3";
 
   # Desktopmanager
-  services.xserver.desktopManager.kde5.enable = true;
-  services.xserver.desktopManager.gnome3.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
   environment.systemPackages = with pkgs; [
@@ -23,7 +21,5 @@
         i3lock
         dzen2
         bar
-        gnome.gnomepanel
-        gnome.gnome_session
     ];
 }
