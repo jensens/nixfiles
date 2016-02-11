@@ -24,5 +24,6 @@
         dzen2
         bar
         gnome.gnomepanel
+        gnome.gnome_session
     ];
 }
