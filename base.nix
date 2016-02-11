@@ -17,10 +17,16 @@
 
   # Set your time zone.
   time.timeZone = "Europe/Vienna";
+
+  # sudo
+  security.sudo.enable = true;
+  security.sudo.wheelNeedsPassword = false;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.extraUsers.jensens = {
     isNormalUser = true;
     uid = 1000;
+    extraGroups = ["wheel"];
   };
 
   # auto upgrade
