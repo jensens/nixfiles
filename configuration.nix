@@ -7,7 +7,7 @@
       ./fonts.nix
       ./printing.nix
       ./x11_wm_de.nix
-      # ./communication.nix
+      ./communication.nix
       ./browsing.nix
     ];
 }
