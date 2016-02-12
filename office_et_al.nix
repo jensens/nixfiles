@@ -6,7 +6,7 @@
         hunspell
 
         # pdf
-        okular
+        kde5.okular
         xournal
 
         # tools
