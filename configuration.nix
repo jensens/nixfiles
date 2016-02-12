@@ -10,5 +10,6 @@
       ./communication.nix
       ./browsing.nix
       ./office_et_al.nix
+      ./audiovideo.nix
     ];
 }

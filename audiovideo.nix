@@ -8,11 +8,18 @@
 # - Audacity
 # - Sound Juicer
 
-# Video
-# - VLC
-# - Flowblade
-# - Kazam Desktop recorder
+{ config, pkgs, ... }:
+{
+    environment.systemPackages = with pkgs; [
+        # Audio
+        clementine
+        audacity
+        sound-juicer
 
-
-
-
+        # video
+        vlc
+        flowblade
+        kazam
+        handbrake
+    ];
+}
