@@ -9,5 +9,6 @@
       ./x11_wm_de.nix
       ./communication.nix
       ./browsing.nix
+      ./office_et_al.nix
     ];
 }
