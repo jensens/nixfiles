@@ -5,7 +5,7 @@
   # Define on which hard drive you want to install Grub.
   boot.loader.grub.device = "/dev/sda";
 
-  boot.kernelPackages = "linuxPackages_4_3.kernel";
+  boot.kernelPackages = ["linuxPackages_4_3.kernel"];
 
   networking.hostName = "rix"; # Define your hostname.
   networking.networkmanager.enable = true;
