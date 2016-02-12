@@ -3,11 +3,6 @@
 # - mp3
 # - ...?
 
-# Audio
-# - Clementine Audioplayer
-# - Audacity
-# - Sound Juicer
-
 { config, pkgs, ... }:
 {
     environment.systemPackages = with pkgs; [
@@ -18,7 +13,7 @@
 
         # video
         vlc
-        flowblade
+        # flowblade
         kazam
         handbrake
     ];
